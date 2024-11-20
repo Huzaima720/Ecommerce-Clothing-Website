@@ -3,7 +3,8 @@ import Navbar from "../Components/Navbar";
 
 import styles from "./styles/Hero.module.css";
 
-import Product9 from "../assets/clothing images/Product 10.png";
+// import HeroImg from "../assets/clothing images/Product 10.png";
+import HeroImg from "../assets/clothing images/bohemian-man-with-his-arms-crossed.png";
 
 const NavBg={
   backgroundColor: "var(--color-primary-light)"
@@ -31,7 +32,7 @@ export default function Hero() {
         <div className={styles.heroImage}>
           {/* <div className={styles.imgBackground}> */}
 
-          <img src={Product9} alt="Fashion Model" />
+          <img src={HeroImg} alt="Fashion Model" />
           {/* </div> */}
         </div>
       </section>
