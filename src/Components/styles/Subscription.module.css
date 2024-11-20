@@ -1,0 +1,256 @@
+.subscription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px;
+  width: 100%;
+}
+
+.text {
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--color-dark);
+}
+
+.description {
+  font-size: 15px;
+  margin-top: 10px;
+  color: var(--color-primary-dark);
+}
+
+.subscriptionForm {
+  width: 70vw;
+  padding: 35px 45px;
+  background-color: var(--color-primary-dark);
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.subscribeTitle {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.subscribeDescription {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.input {
+  padding: 5px 25px;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: var(--color-primary-dark);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #333;
+}
+
+@media (max-width: 1200px) {
+  .subscription {
+    padding: 80px;
+  }
+
+  .subscriptionForm {
+    width: 75vw;
+    padding: 30px 40px;
+  }
+
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .subscribeTitle {
+    font-size: 1.4rem;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .input {
+    font-size: 13px;
+  }
+
+  .button {
+    font-size: 13px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .subscription {
+    padding: 60px;
+  }
+  .text {
+    margin-bottom: 20px;
+  }
+  
+  .subscriptionForm {
+    width: 80vw;
+    padding: 22px 30px;
+  }
+
+  .title {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+
+  .subscribeTitle {
+    font-size: 1.2rem;
+  }
+  .subscribeDescription{
+    font-size: 12px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .input {
+    font-size: 12px;
+    padding: 4px 18px;
+  }
+
+  .button {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 800px) {
+  .subscription {
+    padding: 40px;
+  }
+
+  .subscriptionForm {
+    width: 85vw;
+    padding: 20px 30px;
+  }
+
+  .title {
+    font-size: 1.23rem;
+  }
+  .description {
+    font-size: 13px;
+  }
+
+  .subscribeTitle {
+    font-size: 1.05rem;
+  }
+  .subscribeDescription{
+    font-size: 11px;
+  }
+
+
+  .input {
+    font-size: 11px;
+  }
+
+  .button {
+    font-size: 11px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .subscription {
+    padding: var(--padding-600);
+  
+  }
+
+  .subscriptionForm {
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .subscribeTitle {
+    font-size: 1.1rem;
+  }
+
+  .description {
+    font-size: 10px;
+  }
+  .form{
+    width: 100%;
+  }
+
+  .input {
+    font-size: 10px;
+  }
+
+  .button {
+    font-size: 10px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .subscription {
+    padding: var(--padding-400);
+  }
+
+  .subscriptionForm {
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .subscribeTitle {
+    font-size: 0.9rem;
+  }
+  .subscribeDescription{
+    font-size: 9px;
+  }
+
+  .description {
+    font-size: 9px;
+  }
+  .form{
+    padding: 6px;
+    border-radius: 5px;
+  }
+
+  .input {
+    font-size: 9px;
+  }
+
+  .button {
+    font-size: 9px;
+  }
+}

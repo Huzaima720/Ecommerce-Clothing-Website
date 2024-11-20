@@ -1,0 +1,209 @@
+.productFilters {
+  background-color: #f4f4f4;
+  padding: 40px 28px;
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  flex: 1;
+}
+.filterSection {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start */
+}
+.filterSection h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: #1F2937;
+}
+
+.range {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.slider {
+  width: 100%;
+  height: 6px;
+  background: #e5e5e5;
+  border-radius: 5px;
+  border: none;
+
+}
+.range p {
+  font-size: 15px;
+  color: #4B5563;
+}
+
+.range span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.filterSection .options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.filterSection label {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #1F2937;
+
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+  accent-color: #1F2937;
+}
+
+@media (max-width: 1200px) {
+  .productFilters {
+    padding: 36px 25px;
+    gap: 25px;
+  }
+  .filterSection h4 {
+    font-size: 17px;
+    margin-bottom: 14px;
+  }
+  .range p {
+    font-size: 14px;
+  }
+
+  .range span {
+    font-size: 14px;
+  }
+  .filterSection .options {
+    gap: 8px;
+  }
+  .filterSection label {
+    font-size: 15px;
+    gap: 12px;
+  }
+  .checkbox {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .productFilters {
+    padding: 30px 20px;
+    gap: 22px;
+  }
+  .filterSection h4 {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  .range p {
+    font-size: 11px;
+  }
+
+  .range span {
+    font-size: 11px;
+  }
+  .filterSection .options {
+    gap: 6px;
+  }
+  .filterSection label {
+    font-size: 13px;
+    gap: 10px;
+  }
+  .checkbox {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+@media (max-width: 800px) {
+  .productFilters {
+   width: 100%;
+   height: 100%;
+    padding: 30px 20px;
+    gap: 20px;
+  }
+  .filterSection h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .range p {
+    font-size: 14px;
+  }
+
+  .range span {
+    font-size: 14px;
+  }
+  .filterSection .options {
+    gap: 8px;
+  }
+  .filterSection label {
+    font-size: 16px;
+
+  }
+  .checkbox {
+    width: 17px;
+    height: 17px;
+  }
+}
+
+@media (max-width: 600px) {
+  .productFilters {
+    padding: 28px 20px;
+    gap: 18px;
+  }
+  .filterSection h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .range p {
+    font-size: 12px;
+  }
+
+  .range span {
+    font-size: 12px;
+  }
+  .filterSection .options {
+    gap: 5px;
+  }
+  .filterSection label {
+    font-size: 14px;
+
+  }
+  .checkbox {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .productFilters {
+    padding: 25px 16px;
+    gap: 16px;
+  }
+  .filterSection h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .filterSection label {
+    font-size: 12px;
+
+  }
+  .range p {
+    font-size: 10px;
+  }
+  .range span {
+    font-size: 10px;
+  }
+
+  .checkbox {
+    width: 13px;
+    height: 13px;
+  }
+}

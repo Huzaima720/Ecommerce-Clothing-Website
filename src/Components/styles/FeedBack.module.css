@@ -1,0 +1,239 @@
+.feedbackSection {
+  padding: 40px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.feedbackSection h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: var(--color-primary-dark);
+  font-weight: 600;
+}
+
+.feedbackCards {
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  flex: 1;
+  padding: 18px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.activeCard{
+  background-color: var(--color-primary-light);
+
+}
+
+
+.card .name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card p {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.arrows {
+  display: flex;
+  gap : 25px; 
+  
+}
+
+.arrows Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 24px;
+  
+  border: none;
+}
+
+.arrow{
+    padding: 5px;
+    background-color: var(--color-primary-light);
+    border-radius: 5px;
+}
+.disabledArrow{
+  opacity: 0.4;
+
+
+}
+
+
+@media (max-width: 1200px) {
+  .feedbackSection {
+    padding: var(--padding-1200);
+    gap: 25px;
+  }
+
+  .feedbackSection h1 {
+    font-size: 2.2rem;
+  }
+
+  .feedbackCards {
+    gap: 20px;
+  }
+
+  .card .name {
+    font-size: 18px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+  .arrows Button {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .feedbackSection {
+    padding: var(--padding-1024);
+    gap: 20px;
+  }
+
+  .feedbackSection h1 {
+    font-size: 2rem;
+  }
+
+  .feedbackCards {
+ 
+    gap: 15px;
+  }
+  .card {
+    padding: 17px;
+  }
+ 
+
+  .card .name {
+    font-size: 16px;
+  }
+
+  .card p {
+    font-size: 13px;
+  }
+
+  .arrows Button {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .feedbackSection {
+    padding: var(--padding-800);
+    gap: 25px;
+  }
+
+  .feedbackSection h1{
+    font-size: 1.85rem;
+  }
+
+  .feedbackCards {
+    gap: 10px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .card h1 {
+    font-size: 24px;
+  }
+
+  .card .name {
+    font-size: 15px;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+
+  .arrows Button {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .feedbackSection {
+    padding: var(--padding-400);
+    gap: 20px;
+  }
+
+  section h1 {
+    font-size: 1.5rem;
+  }
+
+  .feedbackCards {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .card {
+    padding: 10px;
+  }
+
+  .card .name {
+    font-size: 14px;
+  }
+
+  .card p {
+    font-size: 11px;
+  }
+
+  .arrows Button {
+    font-size: 16px;
+  }
+
+  .arrows .arrow {
+    padding: 4px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .feedbackSection {
+    padding: 10px 15px;
+    gap: 15px;
+  }
+
+  section h1 {
+    font-size: 24px;
+  }
+
+  .feedbackCards {
+    gap: 8px;
+  }
+
+  .card {
+    padding: 8px;
+  }
+
+  .card .name {
+    font-size: 13px;
+  }
+
+  .card p {
+    font-size: 10px;
+  }
+
+  .arrows Button {
+    font-size: 14px;
+  }
+
+  .arrows .arrow {
+    padding: 3px;
+    font-size: 18px;
+  }
+}

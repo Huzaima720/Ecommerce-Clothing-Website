@@ -1,0 +1,112 @@
+.productCard {
+    flex: 1;
+    text-align: center;
+    text-decoration: none ;
+    color: black;
+}
+
+.productImage {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: #eeeeee;
+}
+
+.productName{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.productInfo{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+.verticalLine{
+    color: #ccc;
+}
+
+@media (max-width: 1200px) {
+   
+    .productImage {
+        margin-bottom: 15px;
+    }
+
+    .productName {
+        font-size: 1.1rem;
+    }
+
+    .productInfo {
+        font-size: 1.1rem;
+        gap: 10px;
+    }
+}
+@media (max-width: 1024px) {
+   
+    .productImage {
+        margin-bottom: 10px;
+    }
+
+    .productName {
+        font-size: 1rem;
+    }
+
+    .productInfo {
+        font-size: 1rem;
+        gap: 10px;
+    }
+}
+
+
+@media (max-width: 800px) {
+  
+    .productImage {
+        margin-bottom: 10px;
+    }
+    .productName {
+        font-size: 1rem;
+    }
+
+    .productInfo {
+        font-size: 1rem;
+        gap: 8px;
+    }
+}
+
+@media (max-width: 600px) {
+    .productImage {
+        margin-bottom: 7px;
+    }
+    .productName {
+        font-size: 0.8rem;
+        margin-bottom: 5px;
+
+    }
+
+    .productInfo {
+        font-size: 0.8rem;
+        gap: 3px;
+    }
+}
+
+@media (max-width: 400px) {
+    .productImage {
+        margin-bottom: 4px;
+    }
+    .productName {
+        font-size: 0.65rem;
+        margin-bottom: 3px;
+
+    }
+
+    .productInfo {
+        font-size: 0.65rem;
+        gap: 2px;
+    }
+
+    
+}

@@ -1,0 +1,174 @@
+.showcase {
+  padding: 60px 15px;
+  text-align: center;
+}
+
+.showcase .title {
+  color: var(--color-primary-dark);
+  font-size: 2.4rem;
+  margin-bottom: 15px;
+}
+.showcase .subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 45px;
+}
+.showcase .productGallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 35px;
+}
+
+.seeMoreButton {
+  display: flex;
+  justify-content: center;
+}
+
+.seeMoreButton button {
+  text-align: center;
+  background: transparent;
+
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: var(--color-primary-dark);
+  border: 2px solid var(--color-secondary-dark);
+  padding: 10px 20px;
+}
+
+.seeMoreButton button .icon {
+  color: var(--color-secondary-dark);
+}
+.seeMoreButton button:hover{
+  background-color: var(--color-secondary-dark);
+  color: white;
+}
+.seeMoreButton button:hover .icon{
+  color: white;
+}
+@media (max-width: 1200px) {
+  .showcase {
+    padding: var(--padding-1200);
+  }
+
+  .showcase .title {
+    font-size: 2.2rem;
+  }
+
+  .showcase .subtitle {
+    font-size: 1.1rem;
+  }
+
+  .showcase .productGallery {
+    gap: 30px;
+  }
+
+  .seeMoreButton button {
+    font-size: 15px;
+    padding: 8px 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .showcase {
+    padding: var(--padding-1024);
+  }
+
+  .showcase .title {
+    font-size: 2rem;
+  }
+
+  .showcase .subtitle {
+    font-size: 1.15rem;
+  margin-bottom: 40px;
+
+  }
+
+  .showcase .productGallery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .seeMoreButton button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 800px) {
+  .showcase {
+    padding: var(--padding-800);
+  }
+
+  .showcase .title {
+    font-size: 1.85rem;
+  }
+
+  .showcase .subtitle {
+    font-size: 1rem;
+  }
+
+
+
+  .seeMoreButton button {
+    font-size: 13px;
+    padding: 6px 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .showcase {
+    padding: var(--padding-600);
+  }
+
+  .showcase .title {
+    font-size: 1.5rem;
+  }
+
+  .showcase .subtitle {
+    font-size: 0.9rem;
+  margin-bottom: 35px;
+
+  }
+
+  .showcase .productGallery {
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 10px;
+  }
+
+  .seeMoreButton button {
+    font-size: 12px;
+    padding: 5px 12px;
+  }
+}
+
+@media (max-width: 400px) {
+ .showcase{
+   padding: var(--padding-400);
+ }
+
+  .showcase .title {
+    font-size: 1.42rem;
+  }
+
+  .showcase .subtitle {
+    font-size: 0.8rem;
+  margin-bottom: 30px;
+
+  }
+
+
+  .seeMoreButton button {
+    font-size: 11px;
+    padding: 4px 10px;
+  }
+}

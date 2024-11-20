@@ -1,0 +1,269 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 150px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #354e2a;
+  text-decoration: none;
+}
+.searchContainer {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.searchIcon {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.searchBox {
+  padding: 5px 12px;
+  border: none;
+  outline: none;
+  width: 200px;
+}
+
+.searchBox:focus {
+  border-color: #007bff;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav a {
+  text-decoration: none;
+  color: var(--color-secondary-dark);
+  font-size: 16px;
+  font-weight: 500;
+}
+.nav a.activeLink {
+  /* text-decoration: underline; */
+  border-bottom: 1px solid var(--color-secondary-dark);
+}
+.headerIcons {
+  display: flex;
+  align-items: center;
+}
+
+.cartIcon {
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 15px;
+  color: var(--color-secondary-dark);
+}
+
+.loginBtn {
+  padding: 6px 25px;
+  border: 2px solid var(--color-secondary-dark);
+  border-radius: 10px;
+  background: none;
+
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+@media (max-width: 1200px) {
+  .header {
+    padding: 20px 65px;
+  }
+  .logo {
+    font-size: 22px;
+   
+  }
+  .nav {
+    gap: 35px;
+  }
+  .nav a {
+    font-size: 15px;
+  }
+  .cartIcon {
+    font-size: 22px;
+    margin-right: 13px;
+  }
+  .loginBtn {
+    padding: 6px 23px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  .searchIcon {
+    font-size: 1.1rem;
+    color: #666;
+  }
+
+  .searchBox {
+    padding: 5px 12px;
+    border: none;
+    outline: none;
+    width: 200px;
+  }
+}
+@media (max-width: 1024px) {
+  .header {
+    padding: 18px 40px;
+  }
+  .logo {
+    font-size: 20px;
+   
+  }
+  .searchIcon {
+    font-size: 1rem;
+  }
+
+  .searchBox {
+    font-size: 0.8rem;
+    padding: 5px 12px;
+
+    width: 160px;
+  }
+
+  .nav {
+    gap: 26px;
+  }
+  .nav a {
+    font-size: 14px;
+  }
+
+  .cartIcon {
+    font-size: 20px;
+
+    margin-right: 10px;
+  }
+  .loginBtn {
+    font-size: 13px;
+
+    padding: 5px 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .header {
+    padding: 15px 30px;
+  }
+  .logo {
+    font-size: 25px;
+   
+  }
+  .searchIcon {
+    font-size: 1.2rem;
+  }
+
+  .searchBox {
+    font-size: 1rem;
+    padding: 5px 12px;
+
+    width: 250px;
+  }
+
+  .nav a {
+    font-size: 16px;
+  }
+  .nav {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 20px;
+  }
+  .nav a {
+    font-size: 17px;
+  }
+  .loginBtn {
+    padding: 6px 24px;
+    border-radius: 10px;
+
+    font-size: 16px;
+  }
+
+  .nav.menuOpen {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 15px ;
+  }
+  .logo {
+    font-size: 20px;
+   
+  }
+
+  .searchIcon {
+    font-size: 1.1rem;
+  }
+
+  .searchBox {
+    font-size: 0.9rem;
+    padding: 4px 10px;
+
+    width: 210px;
+  }
+ 
+ 
+  .hamburger {
+    font-size: 25px;
+  }
+  .nav a {
+    font-size: 15px;
+  }
+  .loginBtn {
+    padding: 6px 22px;
+    border-radius: 9px;
+
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 400px){
+  .header {
+    padding: 10px;
+  }
+  .logo {
+    font-size: 18px;
+   
+  }
+
+  .searchIcon {
+    font-size: 0.925rem;
+  }
+
+  .searchBox {
+    font-size: 0.75rem;
+    padding: 3px 8px;
+
+    width: 160px;
+  }
+  .hamburger {
+    font-size: 20px;
+  }
+  .nav a {
+    font-size: 14px;
+  }
+  .loginBtn {
+    padding: 5px 20px;
+    border-radius: 8px;
+
+    font-size: 14px;
+  }
+}

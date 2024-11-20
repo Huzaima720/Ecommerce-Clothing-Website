@@ -1,0 +1,249 @@
+footer {
+  padding: 40px 120px;
+  background-color: var(--color-primary-dark);
+  color: WHITE;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 3;
+}
+
+.column .logo {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.columnHeader {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.column p {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 8px;
+}
+.icon {
+  font-size: 20px;
+}
+
+.subscribeColumn {
+  flex: 4;
+}
+
+.subscribeForm {
+  border: 1px solid var(--color-primary-light);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+
+.subscribeForm input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background: transparent;
+
+  font-size: 16px;
+  padding-left: 20px;
+  color: var(--color-primary-light);
+}
+
+.subscribeForm input::placeholder {
+  color: var(--color-primary-light);
+}
+
+.subscribeForm button {
+  color: var(--color-dark);
+  outline: none;
+  border: none;
+  background-color: var(--color-primary-light);
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+  footer {
+    padding: var(--padding-1200);
+  }
+
+  .row {
+    gap: 30px;
+  }
+
+  .column .logo {
+    font-size: 22px;
+    margin-bottom: 35px;
+  }
+
+  .columnHeader {
+    font-size: 16px;
+  }
+
+  .column p {
+    font-size: 16px;
+  }
+
+  .subscribeForm input {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .subscribeForm button {
+    padding: 10px 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  footer {
+    padding: var(--padding-1024);
+  }
+
+  .row {
+    gap: 20px;
+  }
+
+  .subscribeForm input {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .subscribeForm button {
+    padding: 12px 16px;
+  }
+}
+
+
+@media (max-width: 800px) {
+  footer {
+    width: 100%;
+    padding: var(--padding-800);
+  }
+
+  
+
+  .row {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+   
+    gap: 25px;
+  }
+
+  .column .logo {
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .socialIcons {
+    justify-content: center;
+  }
+
+  .columnHeader {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .column p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .subscribeColumn {
+    width: 100%;
+  }
+
+  .subscribeForm {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .subscribeForm input {
+    padding: 8px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .subscribeForm button {
+    padding: 10px 14px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  footer {
+    padding: var(--padding-600);
+  }
+
+  .column .logo {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+
+  .columnHeader {
+    font-size: 20px;
+  }
+
+  .column p {
+    font-size: 20px;
+  }
+
+  .icon {
+    font-size: 24px;
+  }
+
+  .subscribeForm input {
+    font-size: 18px;
+    padding: 8px;
+  }
+
+  .subscribeForm button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  footer {
+    padding: var(--padding-400);
+  }
+
+  .column .logo {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .columnHeader {
+    font-size: 16px;
+  }
+
+  .column p {
+    font-size: 16px;
+  }
+
+  .icon {
+    font-size: 19px;
+  }
+
+  .subscribeForm input {
+    font-size: 15px;
+    padding: 6px;
+  }
+
+  .subscribeForm button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}

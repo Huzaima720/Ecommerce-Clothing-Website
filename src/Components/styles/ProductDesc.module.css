@@ -1,0 +1,174 @@
+.productDescContainer {
+  margin: 40px 120px;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  font-size: 1rem;
+  cursor: pointer;
+
+}
+
+.tab.active {
+    color: rgb(0, 66, 165);
+    font-weight: bold;
+    
+}
+
+
+
+
+.tabContent {
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+
+@media (max-width: 1200px) {
+  .productDescContainer {
+    margin: 30px 75px;
+  }
+
+  .tab {
+    font-size: 0.95rem;
+  }
+  .tabContent h3{
+    font-size: 16px;
+  }
+  .tabContent h4{
+    font-size: 15px;
+  }
+  .tabContent p{
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .productDescContainer {
+    margin: 20px 50px;
+  }
+
+  .tabs {
+    padding: 14px 0;
+    margin-bottom: 17px;
+  }
+
+  .tab {
+    font-size: 0.9rem;
+  }
+
+  .tabContent {
+    gap: 8px;
+  }
+  .tabContent h3{
+    font-size: 15px;
+  }
+  .tabContent h4{
+    font-size: 14px;
+  }
+  .tabContent p{
+      font-size: 13px;
+  }
+}
+
+@media (max-width: 800px) {
+  .productDescContainer {
+    margin: 15px 30px;
+  }
+
+  .tabs {
+    gap: 10px;
+    padding: 12px 0;
+    margin-bottom: 15px;
+  }
+
+  .tab {
+  
+    font-size: 0.95rem;
+  }
+  .tabContent h3{
+    font-size: 1.26rem;
+  }
+  .tabContent h4{
+    font-size: 1.25rem;
+  }
+  .tabContent p{
+      font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .productDescContainer {
+    margin: 10px 15px;
+  }
+  .tabs {
+    gap: 5px;
+    padding: 10px 0;
+    margin-bottom: 13px;
+  }
+
+  .tab {
+    font-size: 0.85rem;
+  }
+
+  .tabContent {
+    gap: 5px;
+  }
+  
+  .tabContent h3{
+    font-size: 1.1rem;
+    font-weight: 6600;
+  }
+  .tabContent h4{
+    font-size: 1.075rem;
+    font-weight: 500;
+
+  }
+  .tabContent p{
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .productDescContainer {
+    margin: 10px 10px;
+  }
+  .tabs {
+    gap: 2px;
+    padding: 8px 0;
+    margin-bottom: 11px;
+  }
+
+  .tab {
+    font-size: 0.685rem;
+  }
+
+  .tabContent h3{
+    font-size: .975rem;
+
+
+  }
+  .tabContent h4{
+    font-size: .95rem;
+
+
+  }
+  .tabContent p{
+      font-size: .92rem;
+  }
+
+  
+}

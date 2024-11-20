@@ -1,0 +1,136 @@
+.productSort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productSort p {
+  font-size: 15px;
+  color: #5c5c5c;
+}
+
+.sortOptions {
+  display: flex;
+  align-items: center;
+}
+
+.sortOptions label {
+  font-size: 14px;
+  margin-right: 10px;
+  color: #5c5c5c;
+}
+
+.sortOptions select {
+  font-size: 14px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+
+.filterButton{
+  display: none;
+  cursor: pointer;
+}
+.filters{
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  height: 100%;
+  overflow-y: auto;
+
+}
+
+@media (max-width: 1024px) {
+ 
+  .productSort p {
+    font-size: 14px;
+  }
+  .sortOptions label {
+    font-size: 13px;
+    margin-right: 8px;
+  }
+  .sortOptions select {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 800px) {
+  .productSort > .sortOptions  {
+    display: none;
+  }
+
+  .filterButton{
+    display: block;
+    font-size: 24px;
+  }
+  .sortOptions  {
+    justify-content: space-between;
+
+  }
+  .productSort p {
+    font-size: 14px;
+  }
+  .sortOptions label {
+    font-size: 12px;
+    margin-right: 9px;
+  }
+  .sortOptions select {
+    font-size: 12px;
+    padding: 4px;
+  }
+  .sortOptions select option {
+    font-size: 12px;
+    padding: 3px;
+  }
+  
+}
+
+@media (max-width: 600px) {
+ 
+  .productSort p {
+    font-size: 16px;
+  }
+  
+  .filterButton{
+    font-size: 22px;
+  }
+  .sortOptions  {
+
+    gap: 8px;
+  }
+  .sortOptions label {
+
+    font-size: 16px;
+    margin-right: 7px;
+  }
+  .sortOptions select {
+    font-size: 11px;
+    padding: 2px;
+  }
+  .sortOptions select option {
+    font-size: 10px;
+    padding: 0;
+  }
+
+}
+
+@media (max-width: 400px) {
+  
+  .productSort p {
+    font-size: 13px;
+  }
+  .sortOptions label {
+    font-size: 14px;
+    margin-right: 2px;
+  }
+  .sortOptions select {
+    font-size: 10px;
+    padding: 0;
+  }
+  .sortOptions select option {
+    font-size: 8px;
+    padding: 0;
+  }
+}

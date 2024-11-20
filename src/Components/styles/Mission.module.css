@@ -1,0 +1,161 @@
+.mission {
+  padding-top: 50px ;
+  padding-right: 60px;
+  background-color: #f5f5f5;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--color-primary-dark);
+  margin-bottom: 40px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  width: 100%;
+}
+
+.text {
+  flex: 1;
+  
+}
+
+
+.description {
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image img {
+  width: 600px;
+  height: 400px;
+
+  object-fit: cover;
+}
+
+@media (max-width: 1200px){
+  .mission {
+    padding-top: 44px ;
+    padding-right: 56px;
+  }
+  .title {
+    font-size: 1.8rem;
+
+    margin-bottom: 30px;
+  }
+  .container {  
+    gap: 45px;
+  }
+
+  
+  .description {
+    font-size: 1.2rem;
+    margin-top: 8px;
+  }
+  
+  .image img {
+    width: 550px;
+    height: 370px;
+  }
+
+}
+
+@media (max-width: 1024px){
+  .mission {
+    padding-top: 40px ;
+    padding-right: 50px;
+  }
+  .title {
+   
+
+    margin-bottom: 26px;
+  }
+  .container {  
+    gap: 38px;
+  }
+
+  
+  .description {
+    font-size: 1.15rem;
+    margin-top: 7px;
+  }
+  
+  .image img {
+    width: 430px;
+    height: 330px;
+  }
+  
+}
+
+@media (max-width: 800px){
+  .mission {
+    padding-top: 30px ;
+    padding-right: 30px;
+  }
+  .title {
+    font-size: 1.6rem;
+
+    margin-bottom: 20px;
+  }
+  .container {  
+    gap: 30px;
+  }
+
+  
+  .description {
+    font-size: 1rem;
+  }
+  
+  .image img {
+    width: 360px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 600px){
+  .mission {
+   padding: var(--padding-600);
+  }
+  .title {
+
+    margin-bottom: 16px;
+  }
+  .container {  
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  
+  .description {
+    font-size: 1rem;
+  }
+  
+  .image img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 400px){
+  .mission{
+    padding: var(--padding-400);
+  }
+  .title {
+    font-size: 1.4rem;
+
+    margin-bottom: 14px;
+  }
+  .image img {
+    width: 220px;
+    height: 220px;
+  }
+}
